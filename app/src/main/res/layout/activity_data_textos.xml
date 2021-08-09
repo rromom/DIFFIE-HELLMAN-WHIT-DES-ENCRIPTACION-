@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Data_textos">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txt_dist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:id="@+id/txt_nt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nombre_textos" />
+
+            <lecho.lib.hellocharts.view.PieChartView
+                android:id="@+id/chart6"
+                android:layout_width="match_parent"
+                android:layout_height="434dp" />
+
+            <TextView
+                android:id="@+id/txt_mt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/uso_de_memoria" />
+
+            <lecho.lib.hellocharts.view.PieChartView
+                android:id="@+id/chart1"
+                android:layout_width="match_parent"
+                android:layout_height="461dp" />
+
+            <TextView
+                android:id="@+id/txt_ttt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tiempo_total" />
+
+            <lecho.lib.hellocharts.view.PieChartView
+                android:id="@+id/chart4"
+                android:layout_width="match_parent"
+                android:layout_height="499dp" />
+
+            <TextView
+                android:id="@+id/txt_at"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tiempo_en_generar_a" />
+
+            <lecho.lib.hellocharts.view.PieChartView
+                android:id="@+id/chart5"
+                android:layout_width="match_parent"
+                android:layout_height="483dp" />
+
+            <TextView
+                android:id="@+id/txt_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tiempo_en_encriptar" />
+
+            <lecho.lib.hellocharts.view.PieChartView
+                android:id="@+id/chart2"
+                android:layout_width="match_parent"
+                android:layout_height="495dp" />
+
+            <TextView
+                android:id="@+id/txt_ttet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tiempo_total_de_encriptaci_n" />
+
+            <lecho.lib.hellocharts.view.PieChartView
+                android:id="@+id/chart7"
+                android:layout_width="match_parent"
+                android:layout_height="524dp" />
+
+            <TextView
+                android:id="@+id/txt_bt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tiempo_en_generar_b" />
+
+            <lecho.lib.hellocharts.view.PieChartView
+                android:id="@+id/chart8"
+                android:layout_width="match_parent"
+                android:layout_height="533dp" />
+
+            <TextView
+                android:id="@+id/txt_tdt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tiempo_en_desencriptar" />
+
+            <lecho.lib.hellocharts.view.PieChartView
+                android:id="@+id/chart3"
+                android:layout_width="match_parent"
+                android:layout_height="515dp" />
+
+            <TextView
+                android:id="@+id/txt_ttd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tiempo_total_en_desencriptar" />
+
+            <lecho.lib.hellocharts.view.PieChartView
+                android:id="@+id/chart9"
+                android:layout_width="match_parent"
+                android:layout_height="434dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
